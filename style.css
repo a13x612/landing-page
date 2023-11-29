@@ -2,8 +2,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
 }
 
 img {
@@ -27,7 +26,6 @@ img {
     padding-right: 200px;
     padding-bottom: 100px;
     padding-top: 30px;
-    flex: 1 1 auto;
 }
 
 .header-text {
@@ -56,7 +54,7 @@ a {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
-    flex: 1 1 0;
+   
 }
 
 .hero-text {
@@ -92,3 +90,8 @@ button {
     max-width: 100px;
 }
 
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
