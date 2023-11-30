@@ -108,3 +108,10 @@ button {
         width: 1000px;
         text-align: right;
     }
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+}
