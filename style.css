@@ -54,7 +54,6 @@ a {
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
-   
 }
 
 .hero-text {
@@ -93,5 +92,19 @@ button {
 .quote-section {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    height: 400px;
+    flex-direction: column;
 }
+    .quote {
+        font-size: 36px;
+        width: 1000px; 
+        font-weight: 200;
+        font-style: italic;  
+    }
+
+    .quote-writer {
+        width: 1000px;
+        text-align: right;
+    }
