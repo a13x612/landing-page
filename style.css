@@ -112,6 +112,25 @@ button {
 .cta-section {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     gap: 100px;
+    border: red solid;
+    height: 300px;
+}
+
+.modal {
+  background: white;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  border: red solid;
+}
+
+.button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  align-self: flex-end;
 }
